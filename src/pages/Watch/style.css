@@ -201,3 +201,11 @@
         margin-top: 50px;
     }
 }
+
+@media(max-width: 900px){
+    .main-content .video .video-info
+    {
+        flex-direction: column;
+    }
+}
+
