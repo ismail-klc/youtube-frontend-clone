@@ -17,5 +17,6 @@
 .main {
     height: 100%;
     display: flex;
+    min-width: 500px;
     flex-direction: column;
 }

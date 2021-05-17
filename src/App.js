@@ -8,6 +8,7 @@ import {
 import Trendings from "./pages/Trendings";
 import Subscriptions from "./pages/Subscriptions";
 import Watch from "./pages/Watch";
+import Channel from "./pages/Channel";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/watch" >
             <Watch />
+          </Route>
+          <Route path="/c/:id" >
+            <Channel />
           </Route>
           <Route path="/">
             <Home />

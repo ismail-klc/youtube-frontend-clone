@@ -5,8 +5,6 @@
 }
 
 .thumbnail-h img {
-    width: 168px;
-    height: 94px;
     margin-right: 10px;
 }
 
@@ -20,6 +18,13 @@
 .thumbnail-h .info .video-content {
     display: flex;
     flex-direction: column;
+}
+
+.thumbnail-h .info .video-content .desc{
+    font-size: 12px;
+    margin-top: 15px;
+    padding-right: 20%;
+    color: #606060;
 }
 
 .thumbnail-h .info .video-content .video-name{

@@ -89,10 +89,11 @@ export default function Watch() {
             <div className="recommend">
                 {recommends && recommends.map(v => (
                     <VideoHorizontal
+                        width={168}
+                        height={94}
                         key={v.id}
                         id={v.id}
                         thumbnail={v.thumb}
-                        description={v.description}
                         title={v.title}
                     />
                 ))}

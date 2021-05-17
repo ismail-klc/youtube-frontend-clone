@@ -13,6 +13,9 @@ export default function Home() {
         <div className="videos">
             {videos.map(v => (
                 <Video
+                    isAvatar={true}
+                    width={350}
+                    height={210}
                     key={v.id}
                     id={v.id}
                     thumbnail={v.thumb}

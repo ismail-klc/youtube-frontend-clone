@@ -1,17 +1,15 @@
 .thumbnail{
     padding: 0 10px;
     margin-bottom: 80px;
-}
-
-.thumbnail img {
-    width: 350px;
-    height: 210px;
+    display: flex;
+    flex-direction: column;
 }
 
 .thumbnail .info {
-    display: flex;
     margin-top: 8px;
+    display: flex;
     flex-direction: row;
+    width: 210px;
 }
 
 .thumbnail .info img{
@@ -23,6 +21,7 @@
 .thumbnail .info .video-content {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .thumbnail .info .video-content .video-name{

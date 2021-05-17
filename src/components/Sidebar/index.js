@@ -56,10 +56,12 @@ export default function Sidebar() {
             <div className="text">ABONELİKLER</div>
 
             {[...Array(7).keys()].map((i, a) => (
+            <Link to={`/c/${i + 1}`}>
                 <div className="side-item" key={i}>
                     <i className="material-icons display-this">account_circle</i>
-                Kanal {i + 1}
+                    Kanal {i + 1}
                 </div>
+            </Link>
             ))}
 
             <div className="break"></div>
