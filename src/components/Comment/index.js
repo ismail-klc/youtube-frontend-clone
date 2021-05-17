@@ -18,13 +18,13 @@ export default function Comment({
                     <ul>
                         <a href="#">
                             <li>
-                                <i class="material-icons">thumb_up</i>
+                                <i className="material-icons">thumb_up</i>
                                     15 B
                                 </li>
                         </a>
                         <a href="#">
                             <li>
-                                <i class="material-icons">thumb_down</i>
+                                <i className="material-icons">thumb_down</i>
                                     100
                                 </li>
                         </a>

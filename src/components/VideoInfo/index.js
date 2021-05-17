@@ -19,34 +19,34 @@ export default function VideoInfo({
                     <ul>
                         <a href="#">
                             <li>
-                                <i class="material-icons">thumb_up</i>
+                                <i className="material-icons">thumb_up</i>
                                     15 B
                                 </li>
                         </a>
                         <a href="#">
                             <li>
-                                <i class="material-icons">thumb_down</i>
+                                <i className="material-icons">thumb_down</i>
                                     100
                                 </li>
                         </a>
 
                         <a href="#">
                             <li>
-                                <i class="material-icons">share</i>
+                                <i className="material-icons">share</i>
                                     PAYLAŞ
                                 </li>
                         </a>
 
                         <a href="#">
                             <li>
-                                <i class="material-icons">library_add</i>
+                                <i className="material-icons">library_add</i>
                                     KAYDET
                                 </li>
                         </a>
 
                         <a href="#">
                             <li>
-                                <i class="material-icons">more_horiz</i>
+                                <i className="material-icons">more_horiz</i>
                             </li>
                         </a>
                     </ul>
