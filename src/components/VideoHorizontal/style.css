@@ -1,0 +1,40 @@
+.thumbnail-h{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.thumbnail-h img {
+    width: 168px;
+    height: 94px;
+    margin-right: 10px;
+}
+
+.thumbnail-h .info {
+    display: flex;
+    margin-top: 8px;
+    flex-direction: row;
+}
+
+
+.thumbnail-h .info .video-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail-h .info .video-content .video-name{
+    color: #111;
+    margin-top: -8px;
+}
+
+.thumbnail-h .info .video-content .channel-name{
+    margin-top: 4px;
+    font-size: 14px;
+    color: #555;
+}
+
+.thumbnail-h .info .video-content .video-date-view{
+    margin-top: 2px;
+    font-size: 14px;
+    color: #555;
+}

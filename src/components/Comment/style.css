@@ -1,0 +1,48 @@
+.comment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.comment .user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comment .com-content {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #030303;
+}
+
+.comment .com-actions ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.comment .com-actions ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #030303;
+}
+
+.comment .com-actions ul i{
+    width: 30px;
+}
+
+.comment .user .name{
+    font-size: 13px;
+    color: #030303;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.comment .user .date{
+    font-size: 12px;
+    color: #606060;
+}

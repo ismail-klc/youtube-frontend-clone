@@ -1,0 +1,42 @@
+.thumbnail{
+    padding: 0 10px;
+    margin-bottom: 80px;
+}
+
+.thumbnail img {
+    width: 350px;
+    height: 210px;
+}
+
+.thumbnail .info {
+    display: flex;
+    margin-top: 8px;
+    flex-direction: row;
+}
+
+.thumbnail .info img{
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+}
+
+.thumbnail .info .video-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail .info .video-content .video-name{
+    color: #111;
+}
+
+.thumbnail .info .video-content .channel-name{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.thumbnail .info .video-content .video-date-view{
+    margin-top: 2px;
+    font-size: 14px;
+    color: #555;
+}

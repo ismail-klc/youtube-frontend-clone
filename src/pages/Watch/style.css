@@ -1,0 +1,202 @@
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content .recommend {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .video {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .comments {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .comments .comment-info{
+    margin-top: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main-content .comments .comment-info .count{
+    margin-right: 30px;
+}
+
+.main-content .comments .comment-info .sort{
+    align-items: center;
+    display: flex;
+}
+
+
+.main-content .video hr{
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+}
+
+.main-content .video video{
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.main-content .video .video-info{
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-content .video .video-info .video-name-date{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .video .video-info ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #030303;
+}
+
+.main-content .video .video-info .video-name-date .video-tag{
+    font-size: 12px;
+    margin-top: 15px;
+    color: blue;
+}
+
+.main-content .video .video-info .video-name-date .video-name{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.main-content .video .video-info .video-name-date .video-date{
+    color: #555;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.main-content .video .video-detail{
+    display: flex;
+    margin: 15px 40px;
+    flex-direction: row;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+
+.main-content .comments .comment-form{
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+    align-items: center;
+}
+
+.main-content .comments .comment-list{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.main-content .comments .comment-form input{
+    margin-left: 10px;
+    flex: 1;
+    background-color: inherit;
+    border: none;
+    color: #888;
+    height: 30px;
+    border-bottom: 1px solid #888;
+    font-size: 14px;
+}
+
+
+.main-content .comments .comment-form img{
+    margin: 20px 0 20px 20px;
+}
+
+.main-content .video .video-detail .descriptions{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .video .video-detail .descriptions .channel-name{
+    font-size: 14px;
+    font-weight: bold;
+    color: #030303;
+}
+
+.main-content .video .video-detail .descriptions .sub-count{
+    font-size: 12px;
+    color: #606060;
+    margin: 1px 4px 0 0;
+}
+
+
+.main-content .video .video-detail .descriptions .desc{
+    font-size: 14px;
+    color: #030303;
+    margin: 10px 10px 0 0;
+}
+
+.main-content .video .video-detail .sub-btn{
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #fff;
+    border: none;
+    height: auto;
+    background-color: #cc0000;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-content .video .video-info .video-actions ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+}
+
+.main-content .video .video-info .video-actions ul li{
+    padding: 0 10px;
+    color: #555;
+    align-items: center;
+}
+
+.main-content .video .video-info .video-actions ul i{
+    width: 32px;
+}
+
+@media (max-width: 1368px) {
+    .main-content {
+        flex-direction: column;
+    }
+    .main-content .recommend  {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
