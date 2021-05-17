@@ -160,15 +160,16 @@
 .main-content .video .video-detail .descriptions .desc{
     font-size: 14px;
     color: #030303;
-    margin: 10px 10px 0 0;
+    margin: 10px 50px 0 0;
 }
 
 .main-content .video .video-detail .sub-btn{
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
     color: #fff;
     border: none;
-    height: auto;
+    height: 36px;
+    width: 120px;
     background-color: #cc0000;
     font-size: 16px;
     font-weight: 500;

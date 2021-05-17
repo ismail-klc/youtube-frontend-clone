@@ -1,12 +1,15 @@
 .sidebar {
-    height: 1500px;
-    overflow: auto;
+    overflow: hidden;
     width: 245px;
     min-width: 245px;
     margin-top: 15px;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.sidebar:hover{
+    overflow: auto;
 }
 
 .sidebar .break {

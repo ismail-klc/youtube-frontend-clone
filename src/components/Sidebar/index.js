@@ -12,6 +12,7 @@ export default function Sidebar() {
 
     return (
         <div className="sidebar">
+            <ul>
             <Link to="/" >
                 <div className={`side-item ${path === '/' ? 'active' : ''}`}>
                     <i className="material-icons">home</i>
@@ -91,16 +92,39 @@ export default function Sidebar() {
                 Spor
             </div>
 
+            <div className="break"></div>
+            
             <div className="side-item">
-                <i className="fas fa-compass"></i>
-                Spor
+                <i className="material-icons">
+                settings
+                </i>
+                Ayarlar
             </div>
 
             <div className="side-item">
-                <i className="fas fa-compass"></i>
-                Spor
+                <i className="material-icons">
+                flag
+                </i>
+                İçerik Bildirme Geçmişi
             </div>
 
+            <div className="side-item">
+                <i className="material-icons">
+                help
+                </i>
+                Yardım
+            </div>
+
+            <div className="side-item">
+                <i className="material-icons">
+                feedback
+                </i>
+                Geri Bildirim Gönder
+            </div>
+
+            <div className="break"></div>
+
+            </ul>
         </div>
     )
 }
