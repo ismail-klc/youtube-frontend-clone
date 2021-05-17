@@ -14,21 +14,21 @@ export default function Sidebar() {
         <div className="sidebar">
             <Link to="/" >
                 <div className={`side-item ${path === '/' ? 'active' : ''}`}>
-                    <i class="material-icons">home</i>
+                    <i className="material-icons">home</i>
                     Ana Sayfa
                 </div>
             </Link>
 
             <Link to="/feed/explore">
             <div className={`side-item ${path === '/feed/explore' ? 'active' : ''}`}>
-                    <i class="material-icons">local_fire_department</i>
+                    <i className="material-icons">local_fire_department</i>
                     Keşfet
                 </div>
             </Link>
 
             <Link to="/feed/subscriptions">
             <div className={`side-item ${path === '/feed/subscriptions' ? 'active' : ''}`}>
-                <i class="material-icons">subscriptions</i>
+                <i className="material-icons">subscriptions</i>
                 Abonelikler
                 </div>
             </Link>
@@ -36,17 +36,17 @@ export default function Sidebar() {
             <div className="break"></div>
 
             <div className="side-item">
-                <i class="material-icons">library_add_check</i>
+                <i className="material-icons">library_add_check</i>
                 Kitaplık
             </div>
 
             <div className="side-item">
-                <i class="material-icons">history</i>
+                <i className="material-icons">history</i>
                 Geçmiş
             </div>
 
             <div className="side-item">
-                <i class="material-icons">watch_later</i>
+                <i className="material-icons">watch_later</i>
                 Daha Sonra İzle
             </div>
 
@@ -56,7 +56,7 @@ export default function Sidebar() {
 
             {[...Array(7).keys()].map((i, a) => (
                 <div className="side-item" key={i}>
-                    <i class="material-icons display-this">account_circle</i>
+                    <i className="material-icons display-this">account_circle</i>
                 Kanal {i + 1}
                 </div>
             ))}
@@ -66,26 +66,26 @@ export default function Sidebar() {
             <div className="text">YOUTUBE'DAN DAHA FAZLA İÇERİK</div>
 
             <div className="side-item">
-                <i class="material-icons">
+                <i className="material-icons">
                     smart_display
                 </i>
                 Youtube Premium
             </div>
 
             <div className="side-item">
-                <i class="material-icons">videogame_asset</i>
+                <i className="material-icons">videogame_asset</i>
                 Oyun
             </div>
 
             <div className="side-item">
-                <i class="material-icons">
+                <i className="material-icons">
                     live_tv
                 </i>
                 Canlı
             </div>
 
             <div className="side-item">
-                <i class="material-icons">
+                <i className="material-icons">
                     emoji_events
                 </i>
                 Spor

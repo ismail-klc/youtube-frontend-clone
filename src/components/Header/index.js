@@ -8,7 +8,7 @@ export default function Header({
     return (
         <header>
             <nav onClick={setShow}>
-                <i class="material-icons">menu</i>
+                <i className="material-icons">menu</i>
                 <Link to="/">
                         <img src="/img/youtube-logo.png" />
                 </Link>
@@ -23,22 +23,22 @@ export default function Header({
                 <ul>
                     <li>
                         <a href="#">
-                            <i class="material-icons">videocam</i>
+                            <i className="material-icons">videocam</i>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="material-icons">apps</i>
+                            <i className="material-icons">apps</i>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="material-icons">notifications</i>
+                            <i className="material-icons">notifications</i>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="material-icons display-this">account_circle</i>
+                            <i className="material-icons display-this">account_circle</i>
                         </a>
                     </li>
                 </ul>

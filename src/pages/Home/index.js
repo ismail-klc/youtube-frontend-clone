@@ -13,6 +13,7 @@ export default function Home() {
         <div className="videos">
             {videos.map(v => (
                 <Video
+                    key={v.id}
                     id={v.id}
                     thumbnail={v.thumb}
                     description={v.description}
